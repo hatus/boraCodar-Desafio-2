@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Lato&display=swap");
+
+/*
+font-family: 'Crimson Pro', serif;
+font-family: 'Lato', sans-serif; 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #d9cdf7;
+}
+
+.row {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 13px;
+  position: relative;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+}
+
+.info {
+  margin-left: 13px;
+}
+
+.content img {
+  width: 500px;
+  height: 300px;
+}
+
+.content .info span {
+  width: 75px;
+  height: 10px;
+
+  font-family: "Lato";
+  font-style: light;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  color: #271a45;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content .info p {
+  width: 65px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+
+  color: #271a45;
+}
+
+#btn360 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url("assets/vector.svg");
+  color: #271a45;
+  border: none;
+  background-repeat: no-repeat;
+  height: 23px;
+  width: 33px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.content #cart {
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 160px;
+  height: 40px;
+
+  color: #271a45;
+  background: transparent;
+  border: 0.5px solid #271a45;
+  border-radius: 999px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.info h1 {
+  font-family: "Crimson Pro", serif;
+  color: #271a45;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  padding: 12px 0px;
+}
